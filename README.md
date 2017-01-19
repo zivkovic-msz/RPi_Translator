@@ -1,7 +1,36 @@
 # RPi_Translator
 Raspberry Pi project created to assist reading books in different languages. The goal of the RPi_Translator is to quickly provide a translation or English definition of a word so that you can spend less time looking up what a word means, and more time reading! 
 
-### Prototype Results
+I have a long way till the finished product, so if you are interested in helping accelerate the learning process through reading, please feel free to reach out to me!
+
+### Prototype
+The following picture is the current hardware setup. The final goal is to to create a smaller, portable design. For now, the camera is held in a housing made of Lego bricks.
+
+<img src="https://github.com/zivkovic-msz/RPi_Translator/blob/master/images/camera_setup.jpg" width="300" />
+
+Closeup of camera housing:
+
+<img src="https://github.com/zivkovic-msz/RPi_Translator/blob/master/images/camera_closeup.jpg" width="300" />
+
+ To get an english translation or definition of a word, bring the pointer underneath the particular word and press the button.
+ 
+ <img src="https://github.com/zivkovic-msz/RPi_Translator/blob/master/images/point_to_word.jpg" width="300" />
+
+The following pictures visually demonstrate the word segmentation and final output for the dictionary:
+
+<img src="https://github.com/zivkovic-msz/RPi_Translator/blob/master/images/wordSegmented_eng.jpg" width="300" />
+
+<img src="https://github.com/zivkovic-msz/RPi_Translator/blob/master/images/word_eng.jpg" width="300" />
+
+<img src="https://github.com/zivkovic-msz/RPi_Translator/blob/master/images/dictionary_output.jpg" width="400" />
+
+The following pictures visually demonstrate the word segmentation and final output for the translator (Serbian (Latin) -> English):
+
+<img src="https://github.com/zivkovic-msz/RPi_Translator/blob/master/images/wordSegmented_srb.jpg" width="300" />
+
+<img src="https://github.com/zivkovic-msz/RPi_Translator/blob/master/images/word_srb.jpg" width="300" />
+
+<img src="https://github.com/zivkovic-msz/RPi_Translator/blob/master/images/translator_output.jpg" width="400" />
 
 # Configuration and Installation Steps #
 ### OpenCV ###
